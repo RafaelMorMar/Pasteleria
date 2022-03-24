@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-escale=1.0">
+    <title>PasteleriaPedido</title>
+</head> 
+<body>
+
+    <h1>Aqui realice su pedido</h1>
+
+        <form action="pedido.js">
+        <label for="Nombre">Nombre</label><br>
+        <input type="text"id="nombre"name="nombre"><br>
+        <label for="Apaterno">Apellido</label><br>
+        <input type="text"id="aparteno"name="apaterno"><br>
+        <label for="Direccion">Direccion de entrega</label><br>
+        <input type="text"id="direccion"name="direccion"><br>
+        <label for="Telefono">Telefono de contacto</label><br>
+        <input type="tel"id="telefono"name="telefono"maxlength="10"><br>
+        <label for="Email">email</label><br>
+        <input type="email"id="email"name="email"placeholder="pasteles@gmail.com"><br>
+
+        <p>Tamaño de pastel </p>
+        <input type="radio" id="chico" name="Tamaños" value="Chico">
+        <label for="chico">Chico</label><br>
+        <input type="radio" id="mediano" name="Tamaños" value="Mediano">
+        <label for="mediano">Mediano</label><br>
+        <input type="radio" id="grande" name="Tamaños" value="Grande">
+        <label for="grande">Grande</label><br>
+
+        <p>Sabor de pastel</p>
+        <input type="radio" id="sabor" name="sabores" value="Fresa">
+        <label for="sabor1">Fresa</label><br>
+        <input type="radio" id="sabor2" name="sabores" value="Vainilla">
+        <label for="sabor2">Vainilla</label><br>
+        <input type="radio" id="sabor3" name="sabores" value="Chocolate">
+        <label for="sabor3">Chocolate</label><br>
+        <input type="radio" id="sabor4" name="sabores" value="Limon">
+        <label for="sabor4">Limon</label><br>
+
+        <p>Sabor de Relleno</p>
+        <input type="radio" id="s1" name="relleno" value="Mermelada">
+        <label for="s1">Mermelada</label><br>
+        <input type="radio" id="s2" name="relleno" value="Ganache">
+        <label for="s2">Ganche</label><br>
+        <input type="radio" id="s3" name="relleno" value="Crema">
+        <label for="s3">Crema para batir<label><br>
+        <input type="radio" id="s4" name="relleno" value="Limon">
+        <label for="s4">Limon</label><br>
+
+        <p>Decoracion</p>
+        <input type="checkbox" id="t1" name="tipos" value="Caramelo">
+        <label for="t1">Caramelo Suave</label><br>
+        <input type="checkbox" id="t2" name="tipos" value="Frutas">
+        <label for="t2">Frutas</label><br>
+        <input type="checkbox" id="t3" name="tipos" value="Fondant">
+        <label for="t3">Fondant<label><br>
+        <input type="checkbox" id="t4" name="tipos" value="Chantilly">
+        <label for="t4">Chantilly</label><br>
+        
+
+        <input type="reset"><br><br>
+
+        <input type="submit">
+
+
+    </form>
+
+
+</body>
+</html>
